@@ -5,6 +5,12 @@ date: 13.02.2018
 autosize: true
 transition: concave
 
+Folien und Datensatz
+========================================================
+
+https://mrweiler.github.io/gir  
+https://github.com/mrweiler/gir/blob/master/Graphics_in_R.R
+
 Grundlagen
 ========================================================
 type: section
