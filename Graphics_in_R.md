@@ -560,6 +560,17 @@ ggplot() +
         plot.background = element_rect(fill = "blue"))
 ```
 
+Titel zentrieren
+========================================================
+
+```r
+ggplot() + 
+  ggtitle(label = "Titel") +
+  theme(plot.title = element_text(hjust = 0.5))
+```
+
+![plot of chunk unnamed-chunk-51](Graphics_in_R-figure/unnamed-chunk-51-1.png)
+
 Noch Fragen?
 ========================================================
 
@@ -569,4 +580,4 @@ Wickham, H. (2016). ggplot2: Elegant Graphics for Data Analysis. Springer.
 
 Fertig
 ========================================================
-![plot of chunk unnamed-chunk-51](Graphics_in_R-figure/unnamed-chunk-51-1.png)
+![plot of chunk unnamed-chunk-52](Graphics_in_R-figure/unnamed-chunk-52-1.png)
