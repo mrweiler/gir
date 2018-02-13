@@ -1,2 +1,3 @@
-# gir
-Graphics in R
+# Graphics in R
+
+Workshop im Rahmen der internen Fortbildung.

@@ -187,6 +187,7 @@ Jitterplots
 ========================================================
 
 ```r
+set.seed(123)
 ggplot(data = mpg, aes(x = drv, y = hwy)) + 
   geom_jitter()
 ```
