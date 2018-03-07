@@ -5,12 +5,6 @@ date: 13.02.2018
 autosize: true
 transition: concave
 
-Folien und Datensatz
-========================================================
-
-https://mrweiler.github.io/gir  
-https://github.com/mrweiler/gir/blob/master/Graphics_in_R.R
-
 Grundlagen
 ========================================================
 type: section
@@ -61,7 +55,7 @@ ggplot(data = mpg, aes(x = displ, y = hwy)) +
 
 ![plot of chunk unnamed-chunk-5](Graphics_in_R-figure/unnamed-chunk-5-1.png)
 
-und nochmal ...
+und noch mal ...
 ========================================================
 
 ggplot()
@@ -103,7 +97,7 @@ ggplot(data = mpg, aes(x = manufacturer)) +
 
 ![plot of chunk unnamed-chunk-10](Graphics_in_R-figure/unnamed-chunk-10-1.png)
 
-Und jetzt seid Ihr dran!
+Und jetzt seid ihr dran!
 ========================================================
 Bitte erstellt mit den Variablen "cyl"  
 und "cty" aus dem "mpg"-Datensatz ein  
@@ -187,7 +181,6 @@ Jitterplots
 ========================================================
 
 ```r
-set.seed(123)
 ggplot(data = mpg, aes(x = drv, y = hwy)) + 
   geom_jitter()
 ```
@@ -269,7 +262,7 @@ ggplot(data = mpg, aes(x = displ, y = hwy)) +
 
 ![plot of chunk unnamed-chunk-25](Graphics_in_R-figure/unnamed-chunk-25-1.png)
 
-+ Regressiongrade
++ Regressionsgerade
 ========================================================
 
 ```r
@@ -280,7 +273,7 @@ ggplot(data = mpg, aes(x = displ, y = hwy)) +
 
 ![plot of chunk unnamed-chunk-26](Graphics_in_R-figure/unnamed-chunk-26-1.png)
 
-+ weitere Regressiongrade mit Konfidenzinterval
++ weitere Regressionsgerade mit Konfidenzinterval
 ========================================================
 
 ```r
@@ -313,7 +306,7 @@ ggplot(data = mpg, aes(x = drv, y = hwy)) +
 
 ![plot of chunk unnamed-chunk-29](Graphics_in_R-figure/unnamed-chunk-29-1.png)
 
-Und jetzt seid Ihr dran!
+Und jetzt seid ihr dran!
 ========================================================
 Bitte erstellt mit den Variablen "class"  
 und "cty" aus dem "mpg"-Datensatz ein  
@@ -461,7 +454,7 @@ ggplot(data = mpg, aes(x = displ, y = hwy, color = class)) +
 
 ![plot of chunk unnamed-chunk-41](Graphics_in_R-figure/unnamed-chunk-41-1.png)
 
-Und jetzt seid Ihr dran!
+Und jetzt seid ihr dran!
 ========================================================
 Bitte erstellt eine leere Grafik mit  
 einem Titel und einem Untertitel.
@@ -544,7 +537,7 @@ last_plot() +
 
 ![plot of chunk unnamed-chunk-48](Graphics_in_R-figure/unnamed-chunk-48-1.png)
 
-Und jetzt seid Ihr dran!
+Und jetzt seid ihr dran!
 ========================================================
 Bitte erstellt folgende Grafik:  
 ![plot of chunk unnamed-chunk-49](Graphics_in_R-figure/unnamed-chunk-49-1.png)
@@ -560,17 +553,6 @@ ggplot() +
         plot.background = element_rect(fill = "blue"))
 ```
 
-Titel zentrieren
-========================================================
-
-```r
-ggplot() + 
-  ggtitle(label = "Titel") +
-  theme(plot.title = element_text(hjust = 0.5))
-```
-
-![plot of chunk unnamed-chunk-51](Graphics_in_R-figure/unnamed-chunk-51-1.png)
-
 Noch Fragen?
 ========================================================
 
@@ -580,4 +562,4 @@ Wickham, H. (2016). ggplot2: Elegant Graphics for Data Analysis. Springer.
 
 Fertig
 ========================================================
-![plot of chunk unnamed-chunk-52](Graphics_in_R-figure/unnamed-chunk-52-1.png)
+![plot of chunk unnamed-chunk-51](Graphics_in_R-figure/unnamed-chunk-51-1.png)
